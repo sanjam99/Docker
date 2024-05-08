@@ -1,0 +1,5 @@
+@sanjam99 ➜ /workspaces/Docker (main) $ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+@sanjam99 ➜ /workspaces/Docker (main) $ docker image ls
+REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
+@sanjam99 ➜ /workspaces/Docker (main) $ 
