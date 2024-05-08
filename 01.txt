@@ -1,0 +1,6 @@
+@sanjam99 ➜ /workspaces/Docker (main) $ docker ps -a
+CONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS                      PORTS     NAMES
+b1dc66c387b6   nginx         "/docker-entrypoint.…"   21 minutes ago   Up 5 seconds                80/tcp    serene_lederberg
+4a2c9c7f7402   nginx         "/docker-entrypoint.…"   22 minutes ago   Exited (0) 21 minutes ago             practical_swanson
+78d0c8c1156d   hello-world   "/hello"                 23 minutes ago   Exited (0) 23 minutes ago             romantic_liskov
+@sanjam99 ➜ /workspaces/Docker (main) $ 
