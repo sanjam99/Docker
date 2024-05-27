@@ -1,0 +1,19 @@
+comparing size of both image:
+@sanjam99 ➜ /workspaces/Docker (main) $ docker image ls -a
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago     83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago     15.7MB
+
+Secret Message:
+@sanjam99 ➜ /workspaces/Docker (main) $ docker container run -d --name sanket-alpine devopsdockeruh/simple-web-service:alpine
+cc652a0043ee79a404ad8c633c4abc647ef5319ceec4f0c56157078f6f94cb5e
+
+@sanjam99 ➜ /workspaces/Docker (main) $ docker exec -it  sanket-alpine sh
+/usr/src/app # tail -f ./text.log
+2024-05-27 14:47:07 +0000 UTC
+2024-05-27 14:47:09 +0000 UTC
+2024-05-27 14:47:11 +0000 UTC
+2024-05-27 14:47:13 +0000 UTC
+2024-05-27 14:47:15 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-27 14:47:17 +0000 UTC
